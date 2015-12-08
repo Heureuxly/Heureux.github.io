@@ -4,6 +4,6 @@
 		background-color: blue;
 		/*-webkit-box-shadow: 10px 10px 10px 0px rgba(235,111,235,1);
 		-moz-box-shadow: 10px 10px 10px 0px rgba(235,111,235,1);css3厂商前缀不需要考虑,一般不用添加  */
-		box-shadow: -10px 0px 10px red,10px 0px 10px black,0px -10px 10px blue,0px 10px 10px green;
+		box-shadow: -10px 0px 10px red,10px 0px 10px black,0px -10px 10px yellow,0px 10px 10px green;
 		margin: 40px;
 	}
