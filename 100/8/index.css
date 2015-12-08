@@ -1,0 +1,8 @@
+.box{
+		width: 40%;
+		height: 200px;
+		background-color: blue;
+		/*-webkit-box-shadow: 10px 10px 10px 0px rgba(235,111,235,1);
+		-moz-box-shadow: 10px 10px 10px 0px rgba(235,111,235,1);css3厂商前缀不需要考虑,一般不用添加  */
+		box-shadow: 10px 10px 10px red,12px 12px 10px blue,14px 14px 10px pink
+	}
