@@ -4,6 +4,23 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<style type="text/css">
+	.box{
+		width: 300px;
+		height: 100px;
+		background-color: cyan;
+		padding: 10px;
+
+	}
+	.box:hover{
+		box-sizing:border-box;
+		width: 300px;
+		height: 100px;
+		background-color: cyan;
+		padding: 10px;
+	}
+	
+
+
 	.c1{
 		width: 300px;
 		height: 100px;
@@ -13,7 +30,7 @@
 
 	}
 	.c2{
-		box-sizing:border-box;
+	
 		width: 50%;
 		height: 80px;
 		background-color: black;
@@ -21,10 +38,23 @@
 		float: left;
 		
 	}
+	.c1:hover .c2{
+		box-sizing:border-box;
+		width: 50%;
+		height: 80px;
+		background-color: black;
+		border:1px solid blue;
+		float: left;
+	}
 
 	</style>
 </head>
 <body>
+	<!--样式1-->
+	<div class="box"></div>
+	<br><br><br>
+
+	<!--样式2-->
 	<div class="c1">
 	<div class="c2"></div><div class="c2"></div>
 	</div>
