@@ -20,3 +20,20 @@
 .left,.right{
 	float: left;
 }
+.preant{
+	
+	background-color: blue;
+}
+.child{
+	height: 50px;
+	width: 40%;
+	background-color: yellow;
+	margin-bottom: 30px;
+
+}
+.giral{
+	height: 50px;
+	width: 40%;
+	background-color: #000;
+	margin-top: 40px;
+}
