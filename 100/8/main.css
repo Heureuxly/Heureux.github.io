@@ -1,0 +1,22 @@
+.clearfix:before,
+.clearfix:after{
+	content: " ";
+	display: table;
+	clear: both;
+}
+.box{
+	border: 1px solid red;
+}
+.left{
+	width: 200px;
+	height: 100px;
+	background-color: green;
+}
+.right{
+	width: 200px;
+	height: 100px;
+	background-color: lightseagreen;
+}
+.left,.right{
+	float: left;
+}
