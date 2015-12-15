@@ -1,0 +1,44 @@
+.dark-primary-color    { background: #7B1FA2; }
+.default-primary-color { background: #9C27B0; }
+.light-primary-color   { background: #E1BEE7; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #FFC107; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #727272; }
+.divider-color         { border-color: #B6B6B6; }
+html{
+	-webkit-font-size: 62.5%;
+	font-size: 63%;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family:  "Gill Sans W04",GillSans,"Gill Sans","Gill Sans MT",Calibri,"Trebuchet MS",sans-serif;
+}
+.first{
+	height: 50px;
+}
+.second{
+	height: 300px;
+	text-align: center;
+	box-sizing:border-box;
+	padding-top: 5%;
+}
+h1{
+	font-size: 1.6em;
+}
+h1,h2{
+	font-weight: normal;
+
+}
+h2{
+	opacity: 0.7;
+	font-size: 1em;
+}
+.third{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+}
