@@ -1,0 +1,42 @@
+.first{
+	width: 200px;
+	height: 50px;
+	background-color: red;
+}
+.second{
+	width: 200px;
+	height: 50px;
+	background-color: cyan;
+	margin-top: 10px;
+}
+.third{
+	width: 200px;
+	height: 50px;
+	background-color: lightpink;
+	margin-top: 10px;
+}
+/*如果宽度大于800px的时候*/
+@media (min-width: 800px) {
+	.first{
+		width: 33.3%;
+	   	height: 50px;
+	  	background-color: red;
+	  	float: left;
+	}
+	.second{
+		width: 33.3%;
+	   	height: 50px;
+	  	background-color: cyan;
+	  	float: left;
+	  	margin: 0 0;
+	}
+	.third{
+		width: 33.3%;
+	   	height: 50px;
+	  	background-color: lightpink;
+	  	float: left;
+	  	margin: 0 0;
+	}
+}
+
+
