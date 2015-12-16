@@ -42,7 +42,7 @@ h2{
 	height: 70px;
 	border-radius: 50%;
 	position: absolute;
-	top: 50%;
+	top: 55%;
 	left: 70%;
 	transition:all 1s ease;
 }
@@ -64,5 +64,4 @@ h3,h4,h5{
 h4,h5{
 	opacity: 0.7;
 	font-size: 1.5em;
-	text-align: center;
 }
