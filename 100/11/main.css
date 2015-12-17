@@ -1,0 +1,45 @@
+*{
+	margin:0;
+	padding:0;
+}
+nav{
+	width: 40%;
+	height: 5em;
+	background-color: lightseagreen; 
+	float: right;
+	line-height: 5em;
+	text-align: center;
+	display: none;
+	box-sizing:border-box;
+}
+nav a{
+	color: #fff;
+	text-decoration: none;
+	display: block; /*转换为块元素*/
+	float: left;
+	padding:10px;
+	margin-left: 60px;
+}
+menu{
+	width: 30%;
+	height: 15em;
+	background-color: lightseagreen; 
+	line-height: 5em;
+
+}
+menu a{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+/*大于500时*/
+@media (min-width: 500px) {
+	menu{
+		display: none;
+	}
+	nav{
+		display: block;
+	}
+}
