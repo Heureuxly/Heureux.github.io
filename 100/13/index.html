@@ -8,10 +8,23 @@
 </head>
 <body>
 	<div class="box move"></div>
+
+	<div class="boxbig">
+		<div class="boxsmall moveright"></div>
+	</div>
+
+
+
 	<script type="text/javascript">
 	$(function(){
 		$(".box").click(function(){
 			$(this).toggleClass("move");
+		})
+	})
+
+	$(function(){
+		$(".boxsmall").click(function(){
+			$(this).toggleClass("moveright");
 		})
 	})
 	</script>
