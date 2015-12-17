@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>chick move</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="http://cdn.bootcss.com/jquery/2.1.4/jquery.js"></script>
+</head>
+<body>
+	<div class="box move"></div>
+	<script type="text/javascript">
+	$(function(){
+		$(".box").click(function(){
+			$(this).toggleClass("move");
+		})
+	})
+	</script>
+</body>
+</html>
