@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	overflow: hidden;
+}
+
+.chick{
+	width: 3em;
+	height: 3em;
+	border-radius: 50%;
+	background-color: blue;
+	
+}
+.box{
+	width: 3em;
+	height: 50em;
+	background-color: cyan;
+	transition:all 1s ease;
+}
+.box,.chick{
+	float: left;
+}
+
+
+.box.lang{
+	width: 0;
+	height: 50em;
+	background-color: cyan;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>导航栏的隐藏和展示</title>
+	<link rel="stylesheet" href="main.css">
+	<script src="http://cdn.bootcss.com/jquery/2.1.4/jquery.js"></script>
+</head>
+<body>
+
+	<div class="box lang "></div>
+	
+	<div class="chick"></div>
+
+<script type="text/javascript">
+	$(function(){
+		$(".chick").click(function(){
+			$(".box").toggleClass("lang");
+		})
+	})
+</script>
+
+</body>
+</html>
