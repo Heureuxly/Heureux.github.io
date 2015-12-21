@@ -6,20 +6,20 @@ body{
 	overflow: hidden;
 }
 
-.chick{
+
+.round{
 	width: 3em;
 	height: 3em;
 	border-radius: 50%;
-	background-color: blue;
-	
+	background-color: lightpink;
 }
 .box{
 	width: 3em;
 	height: 50em;
-	background-color: cyan;
+	background-color: purple;
 	transition:all 1s ease;
 }
-.box,.chick{
+.box,.round{
 	float: left;
 }
 
@@ -27,5 +27,5 @@ body{
 .box.lang{
 	width: 0;
 	height: 50em;
-	background-color: cyan;
+	background-color: purple;
 }

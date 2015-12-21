@@ -9,11 +9,26 @@
 <body>
 	<div class="circl red"></div>
 	<script>
+
+	/*方法一
 	$(function(){
 		$(".circl").click(function(){
 			$(this).toggleClass("red");
 		})
 	})
+	
+	方法二*/
+	$(function(){
+		$(".circl").click(function(){
+			if($(this).hasClass("red")){
+				$(this).removeClass("red");
+			}
+			else{
+				$(this).addClass("red");
+			}
+		})
+
+	});
 	</script>
 
 </body>
