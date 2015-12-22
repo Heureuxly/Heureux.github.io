@@ -1,12 +1,19 @@
-.box{
-	width: 100px;
-	height: 100px;
-	background-color: purple;
-	margin: 10em 30em;
-
+*{
+	margin: 0;
+	padding: 0;
 }
-.box.turn{
-	background-color: purple;
-	transform: scale(2,2);
-	transform-origin:0% 0%;/*设置原点，50% 50%为默认中心*/
+body{
+	overflow: hidden;
+}
+.box{
+	width: 3em;
+	height: 100em;
+	background-color: lightgreen;
+	transition:all 1s ease;
+}
+.box.hide{
+	width: 3em;
+	height: 100em;
+	background-color: lightgreen;
+	transform: translateX(-3em);
 }

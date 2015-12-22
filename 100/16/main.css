@@ -1,0 +1,12 @@
+.box{
+	width: 100px;
+	height: 100px;
+	background-color: purple;
+	margin: 10em 30em;
+
+}
+.box.turn{
+	background-color: purple;
+	transform: scale(2,2);
+	transform-origin:0% 0%;/*设置原点，50% 50%为默认中心*/
+}
