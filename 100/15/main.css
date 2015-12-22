@@ -2,7 +2,8 @@
 	width: 100px;
 	height: 100px;
 	background-color: purple;
-	margin:0 auto;
+	margin-top: 10em;
+	margin-left: 45%;
 }
 .box.turn{
 	width: 100px;
