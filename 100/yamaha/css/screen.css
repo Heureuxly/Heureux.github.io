@@ -5,6 +5,7 @@
 }
 body{
 	font-size: 62.5%;
+	font-family:"微软雅黑";
 }
 .clearfix:before,
 .clearfix:after{
@@ -30,7 +31,7 @@ body{
 
 .header{
 	width: 100%;
-	height: 60px;
+	height: 5em;
 
 }
 
@@ -40,25 +41,25 @@ body{
     left: 50%;
     margin-left: -80.5px;
     position: absolute;
-    top: 12px;
+    top: 1em;
     width: 161px;
 	height: 36px;
 }
 .m1{
 	position: absolute;
 	left:4.69%;
-	top: 20px; 
+	top: 1.66667em; 
 	
 }
 .m2{
 	position: absolute;
 	right: 13.5%;
-	top: 20px;
+	top: 1.66667em;
 }
 .m3{
 	position: absolute;
 	right: 4.69%;
-	top: 20px;
+	top: 1.66667em;
 }
 
 
@@ -67,7 +68,7 @@ body{
 .middlepic{
 	width: 100%;
 	height: 160px;
-	margin-top: 140px;
+	margin-top: 11.66667em;
 	position: relative;
 }
 
@@ -91,13 +92,107 @@ body{
 	background-color: black;
 
 }
-.recommend{
+.recommend1{
 	width: 100%;
-	height: 280px;
+	height: 23.3333em;
 	background-color: white;
 }
 .recommendpic img{
+	float: left;
 	width: 200px;
 	height: 200px;
 	margin: 15px 0 0 15px;
+}
+.recommendpic p{
+	margin: 4.1667em 4.68% 0 0;
+	color: black;
+	float: left;
+	font-weight: 600;
+}
+.learnmore{
+	width: 4.8333em;
+	height: 2em;
+	border: 1px solid;
+	float: left;
+	margin-top: 5em;
+	text-align: center;
+	line-height: 2em;
+	font-weight: 600;
+}
+.changeround{
+	margin: 3em 0 0 30% ;
+	float: left;
+}
+
+
+.musical{
+	width: 100%;
+	height: 450px;
+	background-color: black;	
+}
+.musicalpic{
+	width: 256px;
+	height: 256px;
+	padding-top: 1.3333em;
+	position: absolute;
+	left: 50%;
+	margin-left: -128px;
+}
+.musicaltext1{
+	font-size: 1.6em;
+	color: white;
+	text-align: center;
+	margin-top: 1.3333em;
+}
+.musicaltext2{
+	font-size: 1.1em;
+	color: white;
+	text-align: center;
+	margin-top: 1.6667em;
+}
+.musicaltext3{
+	display: block;
+	font-size: 1.1em;
+	color: white;
+	text-align: center;
+	margin-top: 1.8333em;
+}
+.musicalround{
+	margin: 160px 0 0 24.375%;
+	float: left;
+}
+.other{
+	width: 100%;
+	height: 41.6667em;
+	background-color: #88858c;
+}
+.othertext1{
+	text-align: center;
+	font-size: 2.6em;
+	color: white;
+	padding-top: 2.4%;
+}
+.otherpic{
+	width: 21.333em;
+	height: 21.333em;
+	margin-top: 2.4%;
+	position: absolute;
+	left: 50%;
+	margin-left: -128px;
+}
+.othertext2{
+	text-align: center;
+	font-size: 1.6em;
+	color: white;
+	padding-top: 17.5rem;
+}
+.othertext3{
+	margin-left: 15.625%;
+	margin-top: 5%;
+}
+.othertext3 p a{
+	color: white;
+}
+.othertext3 p{
+	line-height: 2em;
 }
