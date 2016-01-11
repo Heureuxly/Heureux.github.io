@@ -17,7 +17,7 @@ body{
 
 .wrapper{
     width: 100%;
-    height: 568px;
+    height: 47.333em;
     position: relative;
 }
 .wrapper img{
@@ -39,11 +39,11 @@ body{
 .logo{
 	float: left;
     left: 50%;
-    margin-left: -80.5px;
+    margin-left: -6.708em;
     position: absolute;
     top: 1em;
-    width: 161px;
-	height: 36px;
+    width: 13.417em;
+	height: 3em;
 }
 .m1{
 	position: absolute;
@@ -67,7 +67,7 @@ body{
 
 .middlepic{
 	width: 100%;
-	height: 160px;
+	height: 13.33em;
 	margin-top: 11.66667em;
 	position: relative;
 }
@@ -93,19 +93,24 @@ body{
 
 
 }
-.wrapper2 img{
-	margin-left: -35%;
-}
+
 .recommend1{
 	width: 100%;
 	height: 23.3333em;
 	background-color: white;
 }
+.recommendbig{
+	margin-top: 1.25em;
+	width: 24.17em;
+	height: 21.25em;
+	position: absolute;
+	left: 50%;
+	margin-left: -12.085em;
+}
 .recommendpic img{
 	float: left;
-	width: 200px;
-	height: 200px;
-	margin: 15px 0 0 15px;
+	width: 16.667em;
+	height: 16.667em;
 }
 .recommendpic p{
 	margin: 4.1667em 4.68% 0 0;
@@ -124,8 +129,10 @@ body{
 	font-weight: 600;
 }
 .changeround{
-	margin: 3em 0 0 30% ;
-	float: left;
+	left: 50%;
+	margin-left: -4.06rem;
+	margin-top: 83%;
+	position: absolute;
 }
 
 
@@ -135,12 +142,12 @@ body{
 	background-color: black;	
 }
 .musicalpic{
-	width: 256px;
-	height: 256px;
+	width: 21.33em;
+	height: 21.33em;
 	padding-top: 1.3333em;
 	position: absolute;
 	left: 50%;
-	margin-left: -128px;
+	margin-left: -10.667em;
 }
 .musicaltext1{
 	font-size: 1.6em;
@@ -162,8 +169,10 @@ body{
 	margin-top: 1.8333em;
 }
 .musicalround{
-	margin: 160px 0 0 24.375%;
-	float: left;
+	left: 50%;
+	margin-left: -5rem;
+	margin-top: 26.5rem;
+	position: absolute;
 }
 .other{
 	width: 100%;
@@ -182,7 +191,7 @@ body{
 	margin-top: 2.4%;
 	position: absolute;
 	left: 50%;
-	margin-left: -128px;
+	margin-left: -10.667em;
 }
 .othertext2{
 	text-align: center;
@@ -190,13 +199,34 @@ body{
 	color: white;
 	padding-top: 17.5rem;
 }
+.otherbig{
+	width: 20em;
+	height: 11em;
+	position: absolute;
+	left: 50%;
+	margin-left: -10em;
+	
+}
 .othertext3{
-	margin-left: 15.625%;
+	margin-left: 5%;
 	margin-top: 5%;
+	float: left;
 }
 .othertext3 p a{
 	color: white;
 }
 .othertext3 p{
+	line-height: 2em;
+}
+
+.othertext4{
+	float: left;
+	margin-top: 5%;
+	margin-left: 40%;
+}
+.othertext4 p a{
+	color: white;
+}
+.othertext4 p{
 	line-height: 2em;
 }
