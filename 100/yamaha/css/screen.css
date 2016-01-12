@@ -159,14 +159,10 @@ body{
 	display: block;
 	font-size: 1.1em;
 	color: white;
-	text-align: center;
 	margin-top: 1.8333em;
 }
 .musicalround{
-	left: 50%;
-	margin-left: -5rem;
-	margin-top: 26.5rem;
-	position: absolute;
+	margin-top: 10%;
 }
 
 
