@@ -77,13 +77,13 @@ body{
 
 .wrapper2round{
 	left: 20%;
-	
+	top: 3em;
 }
 
 .roundwhite{
 	width: 2em;
 	height: 2em;
-	background-color: green;
+	background-color: black;
 	border-radius: 50%/50%;
 	z-index: 4;
 }
@@ -137,30 +137,33 @@ body{
 .musical{
 	width: 100%;
 	height: 28.125rem;
-	background-color: black;
-	text-align: center;	
+	background-color: black;	
 }
 .musicalpic{
 	width: 21.33em;
 	height: 21.33em;
 	padding-top: 1.3333em;
 	position: absolute;
-	
+	left: 50%;
+	margin-left: -10.667em;
 }
 .musicaltext1{
 	font-size: 1.6em;
 	color: white;
+	text-align: center;
 	margin-top: 1.3333em;
 }
 .musicaltext2{
 	font-size: 1.1em;
 	color: white;
+	text-align: center;
 	margin-top: 1.6667em;
 }
 .musicaltext3{
 	display: block;
 	font-size: 1.1em;
 	color: white;
+	text-align: center;
 	margin-top: 1.8333em;
 }
 .musicalround{
@@ -173,9 +176,9 @@ body{
 	width: 100%;
 	height: 500px;
 	background-color: #88858c;
-	text-align: center;
 }
 .othertext1{
+	text-align: center;
 	font-size: 2.6em;
 	color: white;
 	padding-top: 2.4%;
@@ -185,8 +188,11 @@ body{
 	height: 21.333em;
 	margin-top: 2.4%;
 	position: absolute;
+	left: 50%;
+	margin-left: -10.667em;
 }
 .othertext2{
+	text-align: center;
 	font-size: 1.6em;
 	color: white;
 	padding-top: 17.5rem;
@@ -195,6 +201,9 @@ body{
 	width: 20em;
 	height: 11em;
 	position: absolute;
+	left: 50%;
+	margin-left: -10em;
+	
 }
 .othertext3{
 	margin-left: 5%;
