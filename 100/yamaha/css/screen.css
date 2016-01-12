@@ -171,7 +171,7 @@ body{
 }
 .other{
 	width: 100%;
-	height: 41.6667em;
+	height: 41.666em;
 	background-color: #88858c;
 }
 .othertext1{
@@ -224,4 +224,11 @@ body{
 }
 .othertext4 p{
 	line-height: 2em;
+}
+
+
+.footer{
+	width: 100%;
+	height: 29.17em;
+	background-color: black;
 }
