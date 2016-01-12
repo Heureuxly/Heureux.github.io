@@ -137,26 +137,22 @@ body{
 .musical{
 	width: 100%;
 	height: 28.125rem;
-	background-color: black;	
+	background-color: black;
+	text-align: center;	
 }
-.musicalpic{
+.musicalpic img{
 	width: 21.33em;
 	height: 21.33em;
 	padding-top: 1.3333em;
-	position: absolute;
-	left: 50%;
-	margin-left: -10.667em;
 }
 .musicaltext1{
 	font-size: 1.6em;
 	color: white;
-	text-align: center;
 	margin-top: 1.3333em;
 }
 .musicaltext2{
 	font-size: 1.1em;
 	color: white;
-	text-align: center;
 	margin-top: 1.6667em;
 }
 .musicaltext3{
@@ -172,6 +168,9 @@ body{
 	margin-top: 26.5rem;
 	position: absolute;
 }
+
+
+
 .other{
 	width: 100%;
 	height: 500px;
