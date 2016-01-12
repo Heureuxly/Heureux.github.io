@@ -58,7 +58,8 @@ body{
 
 
 .middlepic{
-	width: 100%;	
+	width: 100%;
+
 	top: 39.17%;	
 	position: absolute;
 }
@@ -75,12 +76,14 @@ body{
 }
 
 .wrapper2round{
-	margin-top: -39px;
+	left: 20%;
+	
 }
+
 .roundwhite{
 	width: 2em;
 	height: 2em;
-	background-color: white;
+	background-color: green;
 	border-radius: 50%/50%;
 	z-index: 4;
 }
@@ -133,7 +136,7 @@ body{
 
 .musical{
 	width: 100%;
-	height: 450px;
+	height: 28.125rem;
 	background-color: black;	
 }
 .musicalpic{
