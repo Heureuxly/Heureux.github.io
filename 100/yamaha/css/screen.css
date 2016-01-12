@@ -169,35 +169,28 @@ body{
 
 .other{
 	width: 100%;
-	height: 500px;
+	height: 31.25rem;
 	background-color: #88858c;
+	text-align: center;
 }
 .othertext1{
-	text-align: center;
 	font-size: 2.6em;
 	color: white;
 	padding-top: 2.4%;
 }
-.otherpic{
+.otherpic img{
 	width: 21.333em;
 	height: 21.333em;
 	margin-top: 2.4%;
-	position: absolute;
-	left: 50%;
-	margin-left: -10.667em;
 }
 .othertext2{
-	text-align: center;
 	font-size: 1.6em;
 	color: white;
-	padding-top: 17.5rem;
+
 }
 .otherbig{
 	width: 20em;
 	height: 11em;
-	position: absolute;
-	left: 50%;
-	margin-left: -10em;
 	
 }
 .othertext3{
