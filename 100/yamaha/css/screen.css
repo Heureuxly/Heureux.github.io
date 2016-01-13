@@ -239,7 +239,7 @@ body{
 }
 .otherbig{
 	width: 20em;
-	height: 15em;
+	height: 11em;
 	margin-left: 0.5em;
 	display: block;
 }
@@ -294,7 +294,10 @@ body{
 	margin-top: 3.17em;
 	line-height: 1em;
 }
-.footertext1 a{
+.footertext1 a {
+	color: white;
+}
+.footertext1 b{
 	color: white;
 }
 .footertext2{
