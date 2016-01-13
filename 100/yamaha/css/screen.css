@@ -122,7 +122,7 @@ body{
 }
 .recommendround{
 	left: 50%;
-	margin-left: -5.335em;
+	margin-left: -4.51em;
 	margin-top: 83%;
 	position: absolute;
 }
@@ -131,7 +131,7 @@ body{
 	height: 0.67em;
 	background-color: black;
 	border-radius: 50%/50%;
-	margin-right: 1.33em;
+	margin-right: 1em;
 	z-index: 4;
 	float: left;
 }
@@ -140,7 +140,7 @@ body{
 	height: 0.67em;
 	border:1px solid;
 	border-radius: 50%/50%;
-	margin-right: 1.33em;
+	margin-right: 1em;
 	z-index: 4;
 	float: left;
 }
