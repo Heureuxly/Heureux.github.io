@@ -239,7 +239,7 @@ body{
 }
 .otherbig{
 	width: 20em;
-	height: 11em;
+	height: 15em;
 	margin-left: 0.5em;
 	display: block;
 }
@@ -271,7 +271,6 @@ body{
 	left: 50%;
 	margin-left: -2.84em;
 	position: absolute;
-	margin-top: 3em;
 }
 
 
