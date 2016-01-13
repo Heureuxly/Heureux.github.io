@@ -285,4 +285,25 @@ body{
 	width: 100%;
 	height: 29.17em;
 	background-color: black;
+	text-align: center;
+}
+.footer img{
+	margin-top: 4.17em;
+}
+.footertext1{
+	font-size: 1.2em;
+	margin-top: 3.17em;
+	line-height: 1em;
+}
+.footertext1 a{
+	color: white;
+}
+.footertext2{
+	margin-top: 4.58em;
+	font-size: 1em;
+	color: white;
+	line-height: 2em;
+}
+.footertext2 a{
+	color: white;
 }
