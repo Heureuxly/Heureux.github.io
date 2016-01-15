@@ -24,12 +24,12 @@ body{
 
 .bannerbig{
 	transition: all 1s ease;
-	transform: translateY(0);
+	transform: translateX(0);
 }
 .bannerbig.bannerbigchange{
 	
 	position: relative;
-	transform: translateY(20%);
+	transform: translateX(20%);
 	transition: all 1s ease;
 
 }
