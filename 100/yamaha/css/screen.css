@@ -23,23 +23,38 @@ body{
 
 .big{
 	position: relative;
+
 }
 
 
 
 
-
-
+	
+	
+}
+.poster img.visible{
+	opacity: 1;
+}
 
 .wrapperpic1{
 	display: block;
     width: 100%;
-    z-index: -999;
-    position: relative;
-
-
+    opacity: 1;
+    transition: all .4s ease-in-out;
 }
-
+.wrapperpic1:hover{
+	width: 100%;
+    display: block;
+    opacity: 0;
+ }
+.poster .wrapperpic2{
+	transition: all .4s ease-in-out;
+	width: 100%;
+	left: 0;
+	top: 0;
+    display: block;
+    /* height: auto; */
+    }
 
 .wrapperpic2{
 	width: 100%;
@@ -171,7 +186,7 @@ body{
 }
 .recommendbig{
 	margin-top: 2em;
-	width: 24.17em;
+	width: 100%;
 	height: 21.25em;
 	position: absolute;
 	left: 50%;
@@ -188,11 +203,15 @@ body{
 	float: left;
 	font-weight: 600;
 }
+
 .learnmore{
 	width: 4.8333em;
 	height: 2em;
 	border: 1px solid;
 	float: left;
+	position: absolute;
+	left: 16.7777em;
+	top: 45%;
 	margin-top: 5em;
 	text-align: center;
 	line-height: 2em;
