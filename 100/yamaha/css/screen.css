@@ -23,24 +23,38 @@ body{
 
 .big{
 	position: relative;
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 }
 
 
 
 
+<<<<<<< HEAD
 	
 	
 }
 .poster img.visible{
 	opacity: 1;
 }
+=======
+
+
+>>>>>>> origin/master
 
 .wrapperpic1{
 	display: block;
     width: 100%;
+<<<<<<< HEAD
     opacity: 1;
     transition: all .4s ease-in-out;
+=======
+    z-index: -999;
+    position: relative;
+
+>>>>>>> origin/master
 }
 .wrapperpic1:hover{
 	width: 100%;
@@ -129,7 +143,11 @@ body{
 .dvchange{
 	/*width: 100%;
 	height: 0;*/
+<<<<<<< HEAD
 	transform:translateY(-50em);
+=======
+	transform:translateY(-46em);
+>>>>>>> origin/master
 	
 }
 
@@ -161,12 +179,25 @@ body{
 	position: absolute;
 	top: 33.9em;
 	right: 9em;
+<<<<<<< HEAD
+}
+.icon-globe{
+	position: absolute;
+	top: 36.7em;
+	right: 8.8em;
+=======
+>>>>>>> origin/master
 }
 .icon-globe{
 	position: absolute;
 	top: 36.7em;
 	right: 8.8em;
 }
+
+
+
+
+
 
 
 
@@ -186,7 +217,11 @@ body{
 }
 .recommendbig{
 	margin-top: 2em;
+<<<<<<< HEAD
 	width: 100%;
+=======
+	width: 24.17em;
+>>>>>>> origin/master
 	height: 21.25em;
 	position: absolute;
 	left: 50%;
