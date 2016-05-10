@@ -42,7 +42,7 @@ a .icon-stack,a .icon-spin{display:inline-block;text-decoration:none;}
 a .icon-rotate-90:before,a .icon-rotate-180:before,a .icon-rotate-270:before,a .icon-flip-horizontal:before,a .icon-flip-vertical:before{display:inline-block;}
 .icon-glass:before{content:"\f000";}
 .icon-music:before{content:"\f001";}
-.icon-search:before{content:"\f002";color: white;font-size: 2em;}
+.icon-search:before{content:"\f002";}
 .icon-envelope-alt:before{content:"\f003";}
 .icon-heart:before{content:"\f004";}
 .icon-star:before{content:"\f005";}
@@ -101,7 +101,7 @@ a .icon-rotate-90:before,a .icon-rotate-180:before,a .icon-rotate-270:before,a .
 .icon-facetime-video:before{content:"\f03d";}
 .icon-picture:before{content:"\f03e";}
 .icon-pencil:before{content:"\f040";}
-.icon-map-marker:before{content:"\f041"; color: white; font-size: 1.8em;}
+.icon-map-marker:before{content:"\f041";}
 .icon-adjust:before{content:"\f042";}
 .icon-tint:before{content:"\f043";}
 .icon-edit:before{content:"\f044";}
@@ -155,7 +155,7 @@ a .icon-rotate-90:before,a .icon-rotate-180:before,a .icon-rotate-270:before,a .
 .icon-chevron-up:before{content:"\f077";}
 .icon-chevron-down:before{content:"\f078";}
 .icon-retweet:before{content:"\f079";}
-.icon-shopping-cart:before{content:"\f07a";color: white;font-size: 2em;}
+.icon-shopping-cart:before{content:"\f07a";}
 .icon-folder-close:before{content:"\f07b";}
 .icon-folder-open:before{content:"\f07c";}
 .icon-resize-vertical:before{content:"\f07d";}
@@ -202,7 +202,7 @@ a .icon-rotate-90:before,a .icon-rotate-180:before,a .icon-rotate-270:before,a .
 .icon-circle-arrow-right:before{content:"\f0a9";}
 .icon-circle-arrow-up:before{content:"\f0aa";}
 .icon-circle-arrow-down:before{content:"\f0ab";}
-.icon-globe:before{content:"\f0ac"; color: white; font-size: 1.8em;}
+.icon-globe:before{content:"\f0ac";}
 .icon-wrench:before{content:"\f0ad";}
 .icon-tasks:before{content:"\f0ae";}
 .icon-filter:before{content:"\f0b0";}
@@ -217,7 +217,7 @@ a .icon-rotate-90:before,a .icon-rotate-180:before,a .icon-rotate-270:before,a .
 .icon-paperclip:before,.icon-paper-clip:before{content:"\f0c6";}
 .icon-save:before{content:"\f0c7";}
 .icon-sign-blank:before{content:"\f0c8";}
-.icon-reorder:before{content:"\f0c9";color: white;font-size: 2em}
+.icon-reorder:before{content:"\f0c9";}
 .icon-list-ul:before{content:"\f0ca";}
 .icon-list-ol:before{content:"\f0cb";}
 .icon-strikethrough:before{content:"\f0cc";}
