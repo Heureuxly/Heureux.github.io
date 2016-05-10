@@ -285,7 +285,7 @@ $(function(){
     /*指定图片文字颜色变色
     if (num=3) {
     $(".topword p,.topword a,.topword i").css("color","black");
-   };*/
+   };*/ 
 })
 
 
