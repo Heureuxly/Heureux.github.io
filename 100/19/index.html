@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>测试页</title>
+<script type="text/javascript" src="jquery-1.7.1.js"></script>
+<script>
+function i(){
+	var i="";
+    i= window.screen.width; 
+   
+	alert(i);
+	
+}
+function b(){
+	var b="";
+	 b=document.body.clientHeight;
+	 alert(b);
+}
+
+
+
+$(function(){
+	$(".box").mouseover(function(){
+		$(".line").addClass("linehover");
+	})
+})
+</script>
+<style type="text/css">
+body{
+	margin: 0;
+	padding: 0;
+	position: fixed;
+}
+.box{
+	width: 300px;
+	height: 300px;
+	border: 2px solid black;
+	overflow: hidden;
+}
+.line{
+	width: 1000px;
+	height: 2px;
+	background-color: black;
+	margin-top: 300px;
+	transform-origin: 0 0;
+	transform:rotate(45deg);
+	transition:all .7s ease;
+
+}
+.linehover{
+	margin-top: -303px;
+	
+
+}
+.newbox{
+	width: 990px;
+	background-color: cyan;
+	height: 300px;
+}
+.box1,.box2,.box3{
+	width: 300px;
+	height: 300px;
+	margin-right:30px;
+	border: 1px solid; 
+}
+.box1{
+	background-color: black;
+}
+.box2{
+	background-color: red;
+}
+.box3{
+	background-color: green;
+}
+</style>
+</head>
+<body>
+	<input type="button" value="宽度" onclick="i()">
+	<input type="button" value="高度" onclick="b()">
+
+	<div class="box">
+		<div class="line">
+			
+		</div>
+	</div>
+
+
+
+	<div class="newbox">
+		<div class="box1"></div>
+		<div class="box2"></div>
+		<div class="box3"></div>
+	</div>
+</body>
+</html>
