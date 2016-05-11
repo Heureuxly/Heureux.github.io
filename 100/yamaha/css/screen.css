@@ -221,15 +221,15 @@ body{
 
 
 
-.recommend{
-	width: 400%;
+.recommendbig{
+	width: 800%;
 	height: 23.3333em;
 	background-color: white;
 	text-align: center;
 	z-index: 999;
 }
 .recommendleft,.recommendright{
-	width: 25%;
+	width: 12.5%;
 	height: 100%;
 	float: left;
 	text-align: center;
