@@ -8,7 +8,6 @@ body{
 	font-size: 62.5%;
 	font-family:"微软雅黑";
 	background-color: black;
-
 	overflow:-Scroll;
 	overflow-x:hidden;
 }
@@ -210,8 +209,6 @@ body{
 .mbnone{
 	display: none;
 }
-
-
 
 
 

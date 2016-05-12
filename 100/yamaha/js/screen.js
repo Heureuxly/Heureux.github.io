@@ -31,13 +31,14 @@ $(function(){
         //产品展示，手指滑动
         var mousestart_x=0;//按下鼠标的初始位置的x坐标
 		var mousestop_x=0;//抬起鼠标前的最后位置的x坐标
-		$(".recommendbig").mousedown(function(event){
+		$(".recommendbig").touchstart(function(event){
 			mousestart_x=event.pageX;
 
 		});
-		$(".recommendbig").mouseup(function(){
-			alert(mousestop_x-mousestart_x);
-			alert("345");
+		$(".recommendbig").touchend(function(){
+			alert(mousestop_x=event.pageX)
+			//alert(mousestop_x-mousestart_x);
+		
 			if (mousestop_x-mousestart_x>0) {
 				alert("123");
 				var clone_1=$(".recommend:first").children().first().clone();
@@ -54,7 +55,7 @@ $(function(){
 
 
 
-		$(".recommendbig").mousemove(function(event){
+		$(".recommendbig").touchmove(function(event){
 			mousestop_x=event.pageX;
 			alert("dd");
 		});
