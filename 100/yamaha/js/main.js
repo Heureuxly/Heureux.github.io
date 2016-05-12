@@ -1,3 +1,4 @@
+//电脑版本js
 //屏幕加载事件
 $(function(){
 	var i="";
@@ -9,10 +10,7 @@ $(function(){
         $(".wrapperpic3").attr("src","images/big/wrapper03.jpg");
         $(".wrapperpic4").attr("src","images/big/wrapper04.jpg");
         $(".wrapperpic5").attr("src","images/big/wrapper05.jpg");
-        //musical
-        $(".musicalpic_1").attr("src","images/big/musical01.jpg");
-        $(".musicalpic_2").attr("src","images/big/musical02.jpg");
-        $(".musicalpic_3").attr("src","images/big/musical03.jpg");
+       
         //footer
         $(".footerbottom p").html("Copyright© 2016&nbsp&nbsp&nbsp雅马哈乐器音响（中国）投资有限公司&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp<a href=''>沪ICP备05040406号</a>");
 

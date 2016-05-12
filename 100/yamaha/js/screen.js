@@ -1,3 +1,5 @@
+//手机版本js
+//屏幕加载事件
 $(function(){
 	var i="";
 	i=document.body.clientWidth;
@@ -19,9 +21,7 @@ $(function(){
         $(".wrapperpic4").attr("src","images/small/wrapper04.jpg");
         $(".wrapperpic5").attr("src","images/small/wrapper05.jpg");
         //musical
-        $(".musicalpic_1").attr("src","images/small/musical01.jpg");
-        $(".musicalpic_2").attr("src","images/small/musical02.jpg");
-        $(".musicalpic_3").attr("src","images/small/musical03.jpg");
+       
         //footer
         $(".footerbottom p").html("Copyright© 2016<br>雅马哈乐器音响（中国）投资有限公司<br>版权所有<a href=''>沪ICP备05040406号</a>");
 
@@ -29,7 +29,36 @@ $(function(){
 
 
         //产品展示，手指滑动
-        
+        var mousestart_x=0;//按下鼠标的初始位置的x坐标
+		var mousestop_x=0;//抬起鼠标前的最后位置的x坐标
+		$(".recommendbig").mousedown(function(event){
+			mousestart_x=event.pageX;
+
+		});
+		$(".recommendbig").mouseup(function(){
+			alert(mousestop_x-mousestart_x);
+			alert("345");
+			if (mousestop_x-mousestart_x>0) {
+				alert("123");
+				var clone_1=$(".recommend:first").children().first().clone();
+				if (!$(".recommendbig").is(":animated")) {
+					$(".recommendbig").animate({left:"100%"},1000,function(){
+						clone_1.insertAfter($(".recommend:last").children().last());
+						$(".recommend:first").children().first().remove();
+						$(".recommendbig").attr("style","left:0");
+					})
+				}
+
+			}
+		});
+
+
+
+		$(".recommendbig").mousemove(function(event){
+			mousestop_x=event.pageX;
+			alert("dd");
+		});
+
 
 
 

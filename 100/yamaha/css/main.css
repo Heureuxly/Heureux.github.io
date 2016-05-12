@@ -561,21 +561,15 @@ a:hover{
 	position: relative;
 	float: left;
 }
-.recommendleft{
+.recommendonce{
 	width: 50%;
 	height: 100%;
-	border-right: 1px solid;
 	padding: 25px 5%;
 	float: left;
 	text-align: center;
-
 }
-.recommendright{
-	width: 50%;
-	height: 100%;
-	padding: 25px 5%;
-	float: left;
-	text-align: center;
+.recommendline{
+	border-right: 1px solid;
 }
 @media(max-width: 1250px){
 	.recommendleft{

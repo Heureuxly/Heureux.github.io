@@ -8,9 +8,9 @@ body{
 	font-size: 62.5%;
 	font-family:"微软雅黑";
 	background-color: black;
-	/*
+
 	overflow:-Scroll;
-	overflow-x:hidden;*/
+	overflow-x:hidden;
 }
 
 
@@ -227,9 +227,14 @@ body{
 	background-color: white;
 	text-align: center;
 	z-index: 999;
+	float: left;
 }
-.recommendleft,.recommendright{
-	width: 12.5%;
+.recommend{
+	width: 25%;
+	float: left;
+}
+.recommendonce{
+	width: 50%;
 	height: 100%;
 	float: left;
 	text-align: center;
@@ -245,6 +250,7 @@ body{
 	width: 26em;
 	margin: 0 auto;
 	text-align: center;
+	float: left;
 }
 
 .recommendpic img{
