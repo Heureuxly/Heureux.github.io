@@ -37,23 +37,25 @@ body{
 
 
 	
-
+.poster{
+	overflow: hidden;
+	position: relative;
+}
 .poster img{
-	width: 100%;
-	
 	transition: all .4s ease-in-out;
 	opacity: 0;
 	display: block;
+	height: 100%;
+	
 }
 .poster .visible{
     opacity: 1;
  }
-.poster .wrapperpic2,.poster .wrapperpic3,.poster .wrapperpic4,.poster .wrapperpic5{
+.poster .wrapperpic1,.poster .wrapperpic2,.poster .wrapperpic3,.poster .wrapperpic4,.poster .wrapperpic5{
 	position: absolute;
 	left: 0;
 	top: 0;
 	z-index: -99;
-	display: none;
     }
 /*
 .wrapperpic1{
