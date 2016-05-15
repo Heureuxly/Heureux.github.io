@@ -1,7 +1,7 @@
 $(function(){
     curIndex=0;
     var autoChange=setInterval(function(){
-        if (curIndex<$(".poster img").length-1) {
+        if (curIndex<$(".poster img:not(:last)").length-1) {
             curIndex++;
         }
         else{
@@ -15,7 +15,7 @@ $(function(){
 
   
     function changeTo(num){
-        $(".poster").find("img").removeClass("visible").eq(num).addClass("visible");
+        $(".poster").find("img:not(:last)").removeClass("visible").eq(num).addClass("visible");
        
     }
 

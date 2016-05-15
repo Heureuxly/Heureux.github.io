@@ -28,7 +28,7 @@ $(function(){
 
 
 
-        //产品展示，手指滑动
+        /*产品展示，手指滑动
         var mousestart_x=0;//按下鼠标的初始位置的x坐标
 		var mousestop_x=0;//抬起鼠标前的最后位置的x坐标
 		$(".recommendbig").mousedown(function(event){
@@ -36,7 +36,7 @@ $(function(){
 
 		});
 		$(".recommendbig").mouseup(function(){
-			alert(mousestop_x=event.pageX)
+			//alert(mousestop_x=event.pageX)
 			//alert(mousestop_x-mousestart_x);
 		
 			if (mousestop_x-mousestart_x>0) {
@@ -72,7 +72,7 @@ $(function(){
 		$(".recommendbig").mousemove(function(event){
 			mousestop_x=event.pageX;
 			
-		});
+		});*/
 
 
 
@@ -84,12 +84,24 @@ $(function(){
 		//定义图片高度=屏幕高度
 		$('.poster').css('height', $(window).height()+'px');
 
+		//定义banner文字高度
+		window.onload = function(){
+		var a=$(".bannerwordmid img").css("height");
+		var b=parseInt(a)/2;
+		$(".bannerwordmid img").css("margin-top","-"+parseInt(a)/2+'px');
+
+		//alert(parseInt(a)/2);
+		}
+		
 
 
 
-
-
-
+		//手指滑动商品页面
+		//初始化
+		var mySwiper = new Swiper ('.swiper-container', {
+    	direction: 'vertical',
+    	loop: true,
+    	})
 
 
 

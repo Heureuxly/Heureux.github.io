@@ -41,7 +41,7 @@ body{
 	overflow: hidden;
 	position: relative;
 }
-.poster img{
+.poster .wrapperpic1,.poster .wrapperpic2,.poster .wrapperpic3,.poster .wrapperpic4{
 	transition: all .4s ease-in-out;
 	opacity: 0;
 	display: block;
@@ -56,7 +56,15 @@ body{
 	left: 0;
 	top: 0;
 	z-index: -99;
-    }
+}
+.bannerwordmid img{
+	position: absolute;
+	z-index: 99999999;
+	top: 50%;
+	display: block;
+	width: 100%;
+}
+
 /*
 .wrapperpic1{
 	display: block;
@@ -227,6 +235,7 @@ body{
 	text-align: center;
 	z-index: 999;
 	float: left;
+	overflow: hidden;
 }
 .recommend{
 	width: 25%;

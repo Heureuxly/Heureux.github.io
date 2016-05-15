@@ -49,7 +49,7 @@ $(function(){
 
 
      	//产品展示
-     	$(".btn_right").click(function(){
+     	/*$(".btn_right").click(function(){
         var clone_1=$(".recommend:first").clone();
         if (!$(".recommendbig").is(":animated")) {
        		$(".recommendbig").animate({left:"-100%"},1000,function(){
@@ -69,7 +69,13 @@ $(function(){
         		$(".recommend:last").remove();
         	});
    		}
-    	})
+    	})*/
+        
+        var mySwiper = new Swiper('.recommendbig', {
+            loop : true,
+            nextButton: '.btn_right',
+            prevButton: '.btn_left',
+        })
 
 
 
