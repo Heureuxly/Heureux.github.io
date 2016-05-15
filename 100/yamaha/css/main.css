@@ -444,16 +444,7 @@ a:hover{
 
 /*电脑版 图标隐藏*/
 
-.dv i{
-	display: none;
-}
-.dv input{
-	display: none;
-}
-.dvnone{
-	display: none;
-}
-.pcnone{
+.dv i,.dv input,.dvnone,.pcnone,.dvnav li i,.nav-level-1,.nav-level-2,.nav-level-3,.nav-level-4,.nav-level-5,.navclose,.navline_bottom,.zhucepcnone{
 	display: none;
 }
 
