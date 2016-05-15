@@ -25,12 +25,15 @@
     		<div class="swiper-slide">slider2</div>
     		<div class="swiper-slide">slider3</div>
   		</div>
+  		<div class="swiper-pagination"></div>
 	</div>
 
 </body>
 <script> 
 var mySwiper = new Swiper('.swiper-container', {
 	autoplay: 5000,//可选选项，自动滑动
+	pagination : '.swiper-pagination',
+    	paginationClickable :true,
 })
 </script>
 </html>

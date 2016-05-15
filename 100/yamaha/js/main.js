@@ -72,9 +72,11 @@ $(function(){
     	})*/
         
         var mySwiper = new Swiper('.recommendbig', {
+        
             loop : true,
             nextButton: '.btn_right',
             prevButton: '.btn_left',
+            
         })
 
 

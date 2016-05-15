@@ -6,12 +6,39 @@ $(function(){
 	if (i<768) {
 
 		//导航显示隐藏
-		$(".m1").click(function(){
-		$(".dv").toggleClass("dvchange");
+		$(".m1,.m2").click(function(){
+			$(".dv").animate({left:"0"})
+
 		})
-		$(".m2").click(function(){
-		$(".dv").toggleClass("dvchange");
+		$(".navclose").click(function(){
+			$(".dv").animate({left:"-90%"})
 		})
+
+
+		$(".navword1").click(function(){
+			$(".nav-level-1").toggleClass("nav-level-1-show");
+			$(".icon1").toggleClass("icon-angle-right-rotate");
+		})
+		$(".navword2").click(function(){
+			$(".nav-level-2").toggleClass("nav-level-2-show");
+			$(".icon2").toggleClass("icon-angle-right-rotate");
+		})
+		$(".navword3").click(function(){
+			$(".nav-level-3").toggleClass("nav-level-3-show");
+			$(".icon3").toggleClass("icon-angle-right-rotate");
+		})
+		$(".navword5").click(function(){
+			$(".nav-level-5").toggleClass("nav-level-5-show");
+			$(".icon5").toggleClass("icon-angle-right-rotate");
+		})
+
+
+		
+
+
+		
+		
+
 
 		//banner图片切换
 		$(".bannerword").addClass("mbnone");
@@ -99,12 +126,20 @@ $(function(){
 		//手指滑动商品页面
 		//初始化
 		var mySwiper = new Swiper ('.swiper-container', {
-    	direction: 'vertical',
     	loop: true,
+    	pagination : '.swiper-pagination',
+    	paginationClickable :true,
+    	
     	})
 
+    	$(".swiper-pagination-bullet-active").css("background","white");
+
+		
 
 
+		
+
+		
 
 
 
@@ -128,3 +163,6 @@ $(function(){
 
 	};
 })
+
+
+

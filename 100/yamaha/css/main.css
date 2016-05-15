@@ -541,7 +541,9 @@ a:hover{
 }
 }
 
-
+.recommendmb{
+	display: none;
+}
 .recommendbtn{
 	position: relative;
 
@@ -762,18 +764,18 @@ a:hover{
 
 
 
-.musical{
+.musicalpc{
 	background: url(../images/background_Black.jpg) 0 0 / cover no-repeat fixed;;
 	width: 100%;
 	background-size: cover;
 	float: left;
 }
-.musical img{
+.musicalpc img{
 	width: 100%;
 	transition: 4.5s all ease;
 
 }
-.musical img:hover{
+.musicalpc img:hover{
 	transform: scale(1.2);
 }
 
@@ -829,6 +831,9 @@ a:hover{
 	font-size: 1.3em;
 	position: absolute;
 }*/
+.musical{
+	display: none;
+}
 
 
 .anchor{
@@ -852,7 +857,7 @@ a:hover{
 
 
 
-.other{
+.otherpc{
 	background: url(../images/background_B.jpg) 0 0 / cover no-repeat fixed;
 	width: 100%;
 	background-size: cover;
@@ -882,12 +887,12 @@ a:hover{
 	padding-top: 16px;
 }
 
-.other img{
+.otherpc img{
 	width: 100%;
 	transition: 3.5s all ease;
 }
 
-.other img:hover{
+.otherpc img:hover{
 	transform: scale(1.2);
 }
 
@@ -917,7 +922,9 @@ a:hover{
 	display: block;
 
 }
-
+.other{
+	display: none;
+}
 
 
 
