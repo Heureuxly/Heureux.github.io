@@ -70,8 +70,9 @@ $(function(){
         	});
    		}
     	})*/
-        
-        var mySwiper = new Swiper('.recommendbig', {
+
+        //商品页recommendbig
+        var mySwiper = new Swiper('.swiper-container', {
         
             loop : true,
             nextButton: '.btn_right',

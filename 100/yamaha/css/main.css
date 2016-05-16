@@ -584,11 +584,10 @@ a:hover{
 	text-align: center;
 }
 }
-/*
+
 @media (min-width: 1px) and (max-width: 768px){
 	.recommendpic img{
-		width: 250px;
-		height: 250px;
+		width: 80%;
 		position: relative;
 		z-index: -999;
 		margin-top: 7px;
@@ -596,7 +595,7 @@ a:hover{
 	}
 	.recommendword{
 		position: absolute;
-		left:20%;
+		left:18%;
 		top:100px;
 		z-index: 9999;
 		width: 100px;
@@ -618,18 +617,19 @@ a:hover{
 		display: block;
 	}
 
-	.recommendfilter{
+	.recommendpic img{
 			filter: url(blur.svg#blur);
-	-webkit-filter: blur(2px); /* Chrome, Opera 
-       -moz-filter: blur(2px);
-        -ms-filter: blur(2px);    
-            filter: blur(2px);
+	-webkit-filter: blur(1px); /* Chrome, Opera */
+       -moz-filter: blur(1px);
+        -ms-filter: blur(1px);    
+            filter: blur(1px);
     
-    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=10, MakeShadow=false); /* IE6~IE9 
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=10, MakeShadow=false); /* IE6~IE9 */
     background-color: white;
     opacity: .6;
 	}
-}*/
+}
+
 @media (min-width: 769px) and (max-width: 867px){
 	.recommendpic img{
 		width: 170px;
@@ -774,6 +774,7 @@ a:hover{
 	width: 100%;
 	height: 0;
 	padding-bottom: 100%;
+	overflow: hidden;
 }
 
 

@@ -129,6 +129,8 @@ $(function(){
     	loop: true,
     	pagination : '.swiper-pagination',
     	paginationClickable :true,
+    	nextButton: '.btn_right',
+        prevButton: '.btn_left',
     	
     	})
 
