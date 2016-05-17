@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+	
+	<title>Document</title>
+	
+	<link rel="stylesheet" href="css/shopping-cart-screen.css" media="only screen and (max-device-width:760px) and (-webkit-min-device-pixel-ratio:2)">
+	<link rel="stylesheet" href="css/shopping-cart-main.css" media="only screen and (min-device-width:760px)">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/swiper-3.3.1.min.css">
+
+	<script src="js/jquery-1.7.1.js"></script>
+	<script src="js/shopping-cart-main.js"></script>
+	<script src="js/shopping-cart-screen.js"></script>
+	<script src="js/lb.js"></script>
+	<script src="js/jquery.scrollTo.js"></script>
+	<script src="js/swiper-3.3.1.jquery.min.js"></script>
+
+
+
+	
+
+
+
+	<!--调整大于768px时候显示的样式；放大屏幕显示后的像素比例-->
+</head>
+<body>
+	<div id="login_wrapper" class="login_wrapper">
+	<div class="container">
+		<h1 id="welcome">登录</h1>
+		
+		<form class="form">
+			<input type="text" placeholder="用户名"></br>
+			<input type="password" placeholder="密码"></br></br>
+			<a href="">忘记密码</a>
+			<a href="" class="containertext2">免费注册</a></br></br>
+			<button type="submit" id="login-button">登录</button>
+		</form>
+	
+		<div class="login_close"></div>
+	</div>
+	
+	<ul class="bg-bubbles">
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+
+	</div>
+
+
+	
+	<div class="big">
+		<div class="topword">
+			<p class="p1">【冰爽夏日 开心收礼】雅马哈钢琴夏季促销 买一赠一。</p>
+			<div class="topwordtext">
+				<p class="p2">|&nbsp&nbsp<a><i class="icon-shopping-cart"></i>&nbsp&nbsp0&nbsp&nbsp</a>|&nbsp&nbsp<a href=""><i class="icon-map-marker"></i>&nbsp&nbsp门店查询</a>&nbsp&nbsp|&nbsp&nbsp<a href=""><i href="" class="icon-globe">&nbsp&nbsp</i>全球网站</a>
+				</p>
+				<p class="p3">您好，请&nbsp&nbsp<a class="loginon" >登录</a>&nbsp&nbsp或&nbsp&nbsp<a href="" >注册</a>&nbsp&nbsp</p>
+
+				<p class="p4">您好，xxx&nbsp&nbsp&nbsp&nbsp<a class="missage" >消息</a>&nbsp&nbsp&nbsp&nbsp<a href="" >退出登录</a>&nbsp&nbsp</p>
+			</div>
+		</div>
+		<div class="header">
+			<a href="index.html" class="logolink"><div class="logo">
+				<img  src="images/logoblacksmall.png">
+			</div></a>
+			<div class="m1 pcnone">
+		 		<i class="icon-reorder"></i>
+			</div>
+			<div class="m2 pcnone">
+				<i class="icon-search"></i>
+			</div>
+			<div class="m3 pcnone">
+				<i class="icon-shopping-cart"></i>
+			</div>
+
+			<div class="dv">
+				<input type="text" class="seach" value placeholder="输入关键字" />
+				<div class="seachinput"></div>
+				<div class="dvnav">
+				<a href="index.html" class="dvnone">首页</a>
+				<div class="navclose">
+					<img src="images/topbarClose.png" alt="">
+				</div>
+				<ul>
+				<li class="navword1">
+					<a>乐器<i class="icon-angle-right icon1"></i></a>
+					<div class="nav-level-1">
+						<ul>
+							<li>钢琴</li>
+							<li>电子键盘</li>
+							<li>管乐器</li>
+							<li>吉他</li>
+							<li>爵士鼓</li>
+							<li>弦乐器</li>
+							<li>打击乐器</li>
+						</ul>
+					</div>
+				</li>
+				
+				<li class="navword2">
+					<a>音乐制作产品<i class="icon-angle-right icon2"></i></a>
+					<div class="nav-level-2">
+						<ul>
+							<li>合成器</li>
+							<li>音源</li>
+							<li>舞台钢琴</li>
+							<li>Steinberg产品</li>
+							<li>调音台</li>
+							<li>监听音箱</li>
+							<li>录音笔</li>
+						</ul>
+					</div>
+				</li>
+				<li class="navword3">
+					<a>家庭音响<i class="icon-angle-right icon3"></i></a>
+					<div class="nav-level-3">
+						<ul>
+							<li>家庭影院</li>
+							<li>HiFi产品</li>
+							<li>回音壁音响</li>
+							<li>音响</li>
+							<li>台式音响</li>
+							<li>桌面音响</li>
+							<li>耳机</li>
+							<li>配件</li>
+						</ul>
+					</div>
+				</li>
+				<li class="navword4">
+					<a href="">专业音响<i class="icon-angle-right"></i></a>
+				</li>
+				<li class="navword5">
+					<a>半导体/网络会议产品<i class="icon-angle-right icon5"></i></a>
+					<div class="nav-level-5">
+						<ul>
+							<li>网络会议产品</li>
+							<li>半导体</li>
+						</ul>
+					</div>
+				</li>
+				</ul>
+
+				<li class="navline">
+					<a href="">登录</a>
+				</li>
+				<li class="zhucepcnone">
+					<a href="">注册</a>
+				</li>
+				<li class="navline_bottom">
+					<a href="">我的订单</a>
+				</li>
+				<a href="" class="pcnone">音乐服务<i class="icon-angle-right"></i></a>
+				<a href="" class="pcnone">帮助中心<i class="icon-angle-right"></i></a>
+				
+				<a href="" class="pcnone">门店查询&nbsp&nbsp<i class="icon-map-marker"></i></a>
+				<a href="" class="pcnone">全球网站&nbsp&nbsp<i class="icon-globe"></i></a>
+				</div>
+		
+			</div>
+
+		</div>
+
+		
+		
+
+		<div class="nav">
+			<ul>
+				<li>
+					<a href="index.html">首页</a>
+				</li>
+				<li>双排键电子琴</li>
+				<li>ELS-02C</li>
+
+			</ul>
+		</div>
+		<div class="pcnav">
+			<ul>
+				<li>
+					<a href="index.html">首页</a>
+				</li>
+				<li>
+					<a href="">乐器</a>
+				</li>
+				<li>
+					<a href="">电子键盘</a>
+				</li>
+				<li>
+					<a href="">双排键电子琴</a>
+				</li>
+				<li>
+					<a href="">STAGEA系列</a>
+				</li>
+				<li>ELS-02C</li>
+			</ul>
+		</div>
+		<div class="content swiper-container">
+			<div class="swiper-wrapper">
+				<div class="contentpic swiper-slide">
+					<img src="images/small/content_spiano_1.png" alt="">
+				</div>
+				<div class="contentpic swiper-slide">
+					<img src="images/small/content_spiano_2.png" alt="">
+				</div>
+				
+
+			</div>
+			<div class="swiper-button-prev swiper-button-black"></div>
+    		<div class="swiper-button-next swiper-button-black"></div>
+			<div class="swiper-pagination"></div>
+		</div>
+		<form class="buyform">
+			<!--商品标题-->
+			<h1 class="pt-name">ELS-02C</h1>
+			<!--商品价格-->
+			<div class="pt-price">
+				<span>￥99,000</span>
+			</div>
+		</form>
+
+		<div class="pt-detail">
+			<div class="tab">
+				<ul class="trigger-list">
+					<li class="trigger act">商品详情</li>
+					<li class="trigger">产品规格</li>
+					<li class="trigger">用户评论0</li>
+				</ul>
+				<ul class="panel-list"></ul>
+				
+			</div>
+		</div>
+
+		<ul>
+			<li class="detaili act">
+				<div class="detailed">
+					<h2>AWM音源</h2>
+					<p class="detailed-text">高级波形记忆（AWM）音源内含986种音色。不但采样了高品质的木管和弦乐乐器，还包含民族乐器、人声合唱音色以及其它多种音色，具备强大的表现力。钢琴音色采样使用了丰富、深沉Yamaha广受赞誉的旗舰钢琴CFX音乐会全尺寸三角钢琴。</p>
+					<h2>超清晰音色</h2>
+					<p class="detailed-text">根据键盘的演奏力度和演奏方式，演奏木管、弦乐和其它原声乐器过程中所使用的一些特殊技巧可以通过超清晰音色进行真实地重现。</p>
+					<h2>再现丰富的管弦乐音色</h2>
+					<p class="detailed-text">三层键盘可以同时产生8种类型的音色，使演奏者能重现丰富、浓重的管弦乐音色。</p>
+					<h2>音色关联</h2>
+					<p class="detailed-text">每种音色条件设置都可以注册到“音色关联”功能，还可通过专门画面显示，画面中可以调出各音色区域的设置。由于可关联条件设置，因此无需重复复制各音色区域的设置，使得注册过程更加快捷。</p>
+					<img src="images/small/detailed-1.png" alt="">
+					<img src="images/small/detailed-2.png" alt="">
+					<p class="detailed-text">一种音色设置为音色关联时，其音色显示画面中的图标会改变为链连杆图标</p>
+					<h2>注册</h2>
+					<p class="detailed-text">通过Electone的前面板或显示屏使用音色、节奏和其它设置，称为“注册”。大量的组合可以快速地一键调出，共5个注册库每个包含16个可用记忆，可供用户存储最多80个（16 x 5）原始注册。通过注册记忆按钮、踏板开关或注册顺序，可以在注册之间平滑切换。附加单元可按需存储。</p>
+					<img src="images/small/detailed-3.png" alt="">
+					<h2>定制（FSV）键盘</h2>
+					该键盘配备在定制型号。音高可以通过使用水平力度功能发生变化。传感器能够以0.1mm为单位侦测到侧向行程的变化，其127级的精度能确保反应出极其精细的表情变化。目前只有Yamaha公司能生产具备该种功能的定制化键盘。
+					<img src="images/small/detailed-4.png" alt="">
+					<h2>键盘设计</h2>
+					<p class="detailed-text">全系列产品的上下键盘、脚键盘和琴凳间的相对位置完全相同，以自然、舒适的演奏感为设计目标。由于各型号的各部分组件位置相同，演奏者可以跨型号演奏而不会有任何的不适感。</p>
+					<img src="images/small/detailed-5.png" alt="">
+					<h2>主音箱</h2>
+					<p class="detailed-text">扬声器单元位于键盘下方，声音特点充分体现了Yamaha百年音响技术的精华。定制型号的背面配备了可打开和关闭的立体声音箱，提供了更强大的音响推动力。</p>
+					<img src="images/small/detailed-6.png" alt="">
+					<h3>主音箱(定制型号)</h3>
+					<img src="images/small/detailed-7.png" alt="">
+					<h3>后音箱（定制型号）</h3>
+					<img src="images/small/detailed-8.jpg" alt="">
+					<h3>监听扬声器</h3>
+
+				</div>
+			</li>
+			<li class="detaili">
+				<table class="guigeTable">
+  					<tbody>
+        <tr>
+          <td class="col1" colspan="3">音源</td>
+          <td>AWM + VA + 音栓风琴</td>
+        </tr>
+        <tr>
+            <td rowspan="5" class="col1">键盘</td>
+          <td class="col1" colspan="2">键盘数</td>
+          <td>上键盘： 49 键（ C – C）、下键盘： 49 键（ C – C）、脚键盘： 20 键（ C – G）</td>
+        </tr>
+        <tr>
+          <td class="col1" colspan="2">键盘类型</td>
+          <td>定制（FSV键盘）</td>
+        </tr>
+        <tr>
+          <td class="col1" colspan="2">触前</td>
+          <td>上键盘、下键盘、脚键盘</td>
+        </tr>
+        <tr>
+          <td class="col1" colspan="2">触前</td>
+          <td>上键盘、下键盘、脚键盘</td>
+        </tr>
+        <tr>
+          <td class="col1" colspan="2">水平触键</td>
+          <td>上键盘、下键盘</td>
+        </tr>
+        <tr>
+            <td rowspan="3" class="col1">注册记忆</td>
+          <td class="col1" colspan="2">注册记忆菜单</td>
+          <td>566</td>
+        </tr>
+        <tr>
+          <td class="col1" colspan="2">注册记忆</td>
+          <td>1组 16*5 M.（记忆)、1 - 16、 D.(禁用）</td>
+        </tr>
+        <tr>
+          <td class="col1" colspan="2">注册记忆切换</td>
+          <td>转换模式、跳跃模式和用户模式（1单元：400步），下一单元</td>
+        </tr>
+        <tr>
+            <td rowspan="4" class="col1">音色</td>
+          <td class="col1" colspan="2">音色组</td>
+          <td>上键盘1、上键盘2、主奏1、主奏2、下键盘1、下键盘2、脚键盘1、脚键盘2</td>
+        </tr>
+        <tr>
+          <td class="col1" colspan="2">音色按钮</td>
+          <td>弦乐、铜管乐、木管乐、合奏、长音、合成乐、钢琴、风琴、打击乐器、吉他、合唱、民族乐器、用户 1、用户 2</td>
+        </tr>
+        <tr>
+          <td class="col1" colspan="2">音色按钮</td>
+          <td>小提琴、合成乐、长笛、小号、VA 原声、 VA 虚拟、 VA 电子、 VA 自定义、用户 1、转下键盘（主奏 1）、独奏（主奏 2）</td>
+        </tr>
+        <tr>
+          <td class="col1" colspan="2">音色按钮</td>
+          <td>低音提琴、电贝司、定音鼓、合成贝司、用户 1、转下键盘</td>
+        </tr>
+        <tr>
+          <td class="col1" colspan="3">预置音色</td>
+          <td>AWM:986，VA:94</td>
+        </tr>
+        <tr>
+          <td class="col1" colspan="3">用户音色</td>
+          <td>AWM:80, VA: 6(每个单元)</td>
+        </tr>
+        <tr>
+          <td class="col1" colspan="3">旋转扬声器控制</td>
+          <td>2.69 – 39.7 Hz、慢、停止</td>
+        </tr>
+        <tr>
+            <td rowspan="3" class="col1">效果</td>
+          <td class="col1" colspan="2">延音</td>
+          <td>上键盘（膝控）、下键盘（膝控）、脚键盘</td>
+        </tr>
+        <tr>
+          <td class="col1" colspan="2">混响（音色组/节奏）</td>
+          <td>Hall 1-3:M,L; XG Hall 1-2, Room 1-4:S,M,L; XG Room 1-3; Stage 1-2; XG Stage 1-2; Plate 1-2; XG Plate; GM Plate; White Room; Atmo Hall; Acoustic Room; Drums Room; Perc Room; Tunnel; Canyon; Basement</td>
+        </tr>
+        <tr>
+          <td class="col1" colspan="2">混响（音色组/节奏）</td>
+          <td>上键盘 1 – 2、下键盘 1 – 2、主奏 1 – 2、脚键盘 1 – 2、打击乐器、伴奏、 键盘打击乐器、上部音栓风琴、下部音栓风琴</td>
+        </tr>
+        <tr>
+          <td class="col1" colspan="3">音色组效果</td>
+          <td>混响、延音、 ER/ 卡拉 OK、合唱、增效器、移相器、震音 / 自动移相、旋转扬声器、失真、失真 +、哇音、动态、均衡 / 加强器、音高转换、杂项、贯通</td>
+        </tr>
+        <tr>
+            <td rowspan="4" class="col1">节奏</td>
+          <td class="col1" colspan="2">节奏按钮</td>
+          <td>进行曲、华尔兹、摇摆 &amp; 爵士、流行乐、 R&amp;B、拉丁、民族音乐、叙事曲、摇滚、舞曲、用户 1、用户 2</td>
+        </tr>
+        <tr>
+          <td class="col1" colspan="2">预置节奏模式</td>
+          <td>634(包括节拍器）</td>
+        </tr>
+        <tr>
+          <td class="col1" colspan="2">声部</td>
+          <td>主鼓、附加鼓</td>
+        </tr>
+        <tr>
+          <td class="col1" colspan="2">乐段</td>
+          <td>前奏 1 – 3、尾奏 1 – 3、主奏 / 间奏 A – D、停顿、自动插入</td>
+        </tr>
+        <tr>
+            <td rowspan="3" class="col1">演奏辅助功能</td>
+          <td class="col1" colspan="2">伴奏声部</td>
+          <td>和弦 1、和弦 2、长音、乐句 1、乐句 2</td>
+        </tr>
+        <tr>
+          <td class="col1" colspan="2">自动低音和弦</td>
+          <td>关闭、单指弹奏、多指和弦、 自定义A.B.C.  内存：下键盘、脚键盘</td>
+        </tr>
+        <tr>
+          <td class="col1" colspan="2">旋律和弦</td>
+          <td>关闭、 1、 2、 3、膝控</td>
+        </tr>
+        <tr>
+            <td rowspan="4" class="col1">编程</td>
+          <td class="col1" colspan="2">音色编辑</td>
+          <td>有</td>
+        </tr>
+        <tr>
+          <td class="col1" colspan="2">节奏模式组编程</td>
+          <td>有</td>
+        </tr>
+        <tr>
+          <td class="col1" colspan="2">SEQ编程</td>
+          <td>1单元 SEQ.1-4（节奏和注册编程）</td>
+        </tr>
+        <tr>
+          <td class="col1" colspan="2">键盘打击乐器指定</td>
+          <td>1单元 预置 1 – 2，用户 1 – 40（声像，音高精调，混响，音量）</td>
+        </tr>
+        <tr>
+            <td rowspan="12" class="col1">控制</td>
+          <td class="col1" colspan="2">左侧脚控开关</td>
+          <td>节奏： 停止、停顿、主奏 A – D、前奏 1 – 3、尾奏 1 – 3 滑音： 上键盘 1、 2，下键盘 1、 2，主奏 1、 2，滑音时间 旋转扬声器速度</td>
+        </tr>
+        <tr>
+          <td class="col1" colspan="2">右侧脚控开关</td>
+          <td>注册转换</td>
+        </tr>
+        <tr>
+          <td class="col1" colspan="2">表情踏板</td>
+          <td>有</td>
+        </tr>
+        <tr>
+          <td class="col1" colspan="2">第2表情踏板</td>
+          <td>延音（上键盘 1、 2/ 下键盘 1、 2）、 M.O.C.、主奏滑音、独奏（主奏 2）</td>
+        </tr>
+        <tr>
+          <td class="col1" colspan="2">膝控音杆</td>
+          <td>??? ShowLyric ???</td>
+        </tr>
+        <tr>
+          <td class="col1" colspan="2">移调</td>
+          <td>-6 – +6</td>
+        </tr>
+        <tr>
+          <td class="col1" colspan="2">Pitch</td>
+          <td>A = 427.2 – 452.6 Hz，默认值：A=440Hz</td>
+        </tr>
+        <tr>
+          <td class="col1" colspan="2">MIDI设定</td>
+          <td>有</td>
+        </tr>
+        <tr>
+          <td class="col1" colspan="2">主控制</td>
+          <td>电源打开 / 关闭、主音量</td>
+        </tr>
+        <tr>
+          <td class="col1" colspan="2">M.D.R.</td>
+          <td>搜索、乐曲选择：停止、演奏、暂停、快退、快进、录制、定制播放、乐谱、设置（速度 / 声部）、注册编辑 工具： 创建文件夹、更改乐曲名称、复制、删除、转换（ XG/EL/ELS 格式）、格式化、信息</td>
+        </tr>
+        <tr>
+          <td class="col1" colspan="2">应用</td>
+          <td>语言 ( 英语 / 日语）、触摸面板声音、 LCD 亮度、麦克风（混响 / 音量）、禁用模式（正常 / 速度）、初始化</td>
+        </tr>
+        <tr>
+          <td class="col1" colspan="2">屏幕选择</td>
+          <td>音色显示、 A.B.C./M.O.C.、 MDR、脚控开关、应用、互联网、音色编辑、节奏模式组编程、节奏音序编程、 上部音栓风琴、下部音栓风琴、旋转扬声器速度</td>
+        </tr>
+        <tr>
+            <td rowspan="3" class="col1">外观式样</td>
+          <td class="col1" colspan="2">液晶显示器</td>
+          <td>TFT彩色宽屏VGA LCD显示屏 800*480 像素 7英寸</td>
+        </tr>
+        <tr>
+          <td class="col1" colspan="2">声音系统</td>
+          <td>70 W x 2（根据雅马哈测量方法）</td>
+        </tr>
+        <tr>
+          <td class="col1" colspan="2">声音系统</td>
+          <td>锥形单元： 13 cm x 8 穹顶型： 2.5 cm x 4 监听扬声器： 6.6 cm x 2</td>
+        </tr>
+        <tr>
+          <td class="col1" colspan="3">存储</td>
+          <td>USB闪存存储器</td>
+        </tr>
+        <tr>
+          <td class="col1" colspan="3">接口</td>
+          <td>PHONES（ 2）、 AUX OUT： L/L+R （标准耳机）、 L/R （左侧不变、 RCA）、AUX IN： L/L+R （标准耳机）、 MIDI IN/OUT、 USB TO DEVICE （3；2个端口已经连接到USB凹槽）、 MIC./LINE IN （插孔、开关和音量控制）</td>
+        </tr>
+        <tr>
+            <td rowspan="2" class="col1">尺寸、重量</td>
+          <td class="col1" colspan="2">琴体</td>
+          <td>1229（ W） x 574（ D） x 1017（ H） （加乐谱 1276） mm、109.5 kg</td>
+        </tr>
+        <tr>
+          <td class="col1" colspan="2">椅子</td>
+          <td>781 x 305 x 618 mm、 8.8kg</td>
+        </tr>
+					</tbody>
+				</table>
+			</li>
+			<li class="detaili">
+				<span>暂无</span>
+			</li>
+		</ul>
+	</div>
+
+	<div class="bottomchart">
+		<div class="customService">
+			<a href="">
+				<i class="customServiceicon"></i>
+				<span class="clearfix">客服</span>
+			</a>
+		</div>
+		<div class="proShare">
+			<a href="">
+				<i class="proShareicon"></i>
+				<span class="clearfix">分享</span>
+			</a>
+		</div>
+		<div class="favorite">
+			<a href="">
+				<i class="favoriteicon"></i>
+				<span class="clearfix">收藏</span>
+			</a>
+		</div>
+		<div class="addchart">
+			<a class="addchart-btn">加入购物车</a>
+		</div>
+		<div class="buynow">
+			<a href="" class="buynow-btn">立即购买</a>
+		</div>
+	</div>
+
+
+
+
+	
+	<footer class="footer">
+		<div class="footerRowleft">	
+			<img src="images/logomiddle.png">
+			<div class="footertext1">
+			<div class="title">我们相信</div>
+			<p class="footertext2">我们用基于声音和音乐造就而成的丰富的
+			专业知识和高度的艺术感性，与世界各地
+			的人们一起，不断创造新的感动与丰富的文化。</p>
+			<div class="footerlinkmb">
+			<a href="">网站地图</a><b> 丨</b>
+			<a href=""> 联系我们</a><b> 丨</b>
+			<a href=""> 在线招聘</a> <br><br>
+			<a href="">使用条款</a><b> 丨</b>
+			<a href="">隐私条款</a>
+			</div>
+			</div>
+			
+		</div>
+		
+
+		<div class="footerup">
+		<div class="footerRowright">
+			<div class="footerlistColumn">
+				<ul>
+					<li class="first">音乐服务</li>
+					<li><a href="">音乐中心</a></li>
+					<li><a href="">音乐交流中心</a></li>
+
+				</ul>
+			</div>
+			<div class="footerlistColumn">
+				<ul>
+					<li class="first">帮助中心</li>
+					<li><a href="">如何购物</a></li>
+					<li><a href="">支付/配送方式</a></li>
+					<li><a href="">服务承诺</a></li>
+					<li><a href="">常见问题</a></li>
+
+				</ul>
+			</div>
+			<div class="footerlistColumn">
+				<ul>
+					<li class="first">了解YAMAHA</li>
+					<li><a href="">品牌故事</a></li>
+					<li><a href="">门店查询</a></li>
+
+				</ul>
+			</div>
+			<div class="footerAttention">
+				
+					<div class="title">关注分享</div>
+					<div class="way">
+						<a href=""><img src="images/sina2.png">
+						<p>雅马哈官方微博</p></a>
+					</div>
+					
+
+				
+			</div>
+		</div>
+		</div>
+		<div class="footerdown">
+		<div class="footerbottom">
+			<p>Copyright© 2016<br>	雅马哈乐器音响（中国）投资有限公司<br>
+			版权所有  <a href="">沪ICP备05040406号</a></p>
+
+			
+
+		</div>
+		
+		</div>
+
+
+	</footer>
+	
+</body>
+</html>
