@@ -20,7 +20,7 @@ body{
 	clear: both;
 }
 
-.login_wrapper,.topwordtext,.pcnav{
+.bannershop-right,.login_wrapper,.topwordtext,.bannershop,.bannershop-mid,.pcnav,.pt-detail-pc{
 	display: none;
 }
 .topword{
@@ -194,8 +194,7 @@ body{
 .detaili.act{
 	display: block;
 }
-.detaili span{
-	display: inherit;
+.detaili-none{
 	text-align: center;
 }
 

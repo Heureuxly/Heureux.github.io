@@ -18,14 +18,14 @@ $(function(){
 		$(this).addClass("act");
 		var num=$(this).index();
 		if (num==0) {
-			$(".detaili").removeClass("act").eq(0).addClass("act");
+			$(".detaili").removeClass("act").eq(1).addClass("act");
 		}
 		else if (num==1) {
-			$(".detaili").removeClass("act").eq(1).addClass("act");
+			$(".detaili").removeClass("act").eq(2).addClass("act");
 		}
 	
 		else if (num==2) {
-			$(".detaili").removeClass("act").eq(2).addClass("act");
+			$(".detaili").removeClass("act").eq(3).addClass("act");
 		}
 		else{
 			$(".detaili").removeClass("act")

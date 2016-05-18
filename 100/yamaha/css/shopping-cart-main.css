@@ -294,7 +294,7 @@ form button:hover {
 
 
 /*手机版隐藏元素*/
-.m1,.m2,.m3,.nav,.content,.bottomchart{
+.m1,.m2,.m3,.nav,.content,.bottomchart,.pt-detail{
 	display: none;
 }
 
@@ -435,7 +435,7 @@ a:hover{
 
 .pcnav{
 	width: 100%;
-	padding: 22px 19px 12px;
+	padding: 22px 50px 12px;
 	font-size: 1.4em;
 }
 
@@ -454,21 +454,275 @@ a:hover{
 .pcnav ul>li:last-child::after{
 	content: none;
 }
+.buyform{
+	display: none;
+}
+.bannershop{
+	height: 600px;
+	padding: 25px 50px 12px;
+	float: left;
+}
+.right-extra{
+	float: left;
+}
+.bannershop-mid{
+	float: left;
+	width: 400px;
+	height: 550px;
+	margin-left: 50px;
+	padding-top: 25px;
+}
+.bannershop-mid h1{
+	line-height: 1.5em;
+    font-weight: 700;
+    font-size: 1.8em;
+    color: #666;
+}
+.bannershop-mid-word1{
+	margin: 12px 0;
+}
+.score span{
+	color: #666666;
+	font-size: 14px;
+}
+.icon-star-empty{
+	color: #DDDEE2;
+}
+
+.bannershop-right{
+	float: right;
+	padding-right: 50px;
+	text-align: center;
+	width: 255px;
+	height: 550px;
+	border-left: 1px solid #DDDEE2;
+
+
+}
+.bannershop-right h5{
+	
+}
+.bannershop-right img{
+	width: 140px
+}
+
+.pt-detail-pc{
+	height: 70px;
+	border-bottom: 2px solid black;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	float: left;
+}
+.pt-detail-pc-mid{
+	margin: 0 auto;
+	width: 285px;
+	border: none;
+	height: 70px;
+
+}
+.pt-detail-pc-word{
+	border: none;
+    background-color: #fff;
+    line-height: 35px;
+    margin-top: 33px;
+    position: relative;
+    float: left;
+
+}
+.pt-detail-pc-word a{
+	padding: 5px 17.5px;
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+}
+.pt-detail-pc-word a:hover::after{
+	border-bottom: 8px solid #000000;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    bottom: 0;
+    content: "";
+    height: 0;
+    left: 40%;
+    position: absolute;
+    width: 0;
+    color: #000;
+}
 
 
 
 
+.detailed{
+	padding: 0 .625rem;
+	text-align: center;
+}
+.detailed-text{
+	margin-top: 1em;
+}
+.detailed h2{
+	margin-top: 1em;
+	font-size: 1.6em;
+}
+.detailed img{
+	margin: 24px 15px 0;
+}
+.detaili{
+	display: none;
+	float: left;
+	text-align: center;
+	padding-bottom: 50px;
+	width: 100%;
+}
+.detaili.act{
+	display: block;
+}
+
+.detaili i{
+	font-style: normal;
+}
+.detaili a{
+	color: black;
+	font-weight: 500;
+}
+.detaili-none{
+	line-height: 50px;
+	font-size: 14px;
+}
+.sales{
+	padding-bottom: 10px;
+	margin: 5px 0;
+	color: #666666;
+	font-size: 16px;
+}
+.action-price{
+	font-size: 22px;
+	font-weight: normal;
+    text-decoration: none;
+    color: black;
+}
+.pruduct-style{
+	display: inline-block;
+    padding: 5px 10px;
+    text-align: center;
+    line-height: 22px;
+    font-size: 12px;
+    margin: 3px 0;
+    border: 2px solid #DDDEE2;
+    color: black;
+    cursor: pointer;
+}
+.pruduct-style-black{
+	border: 2px solid black;
+}
+.pruduct-sty{
+	color: #666666;
+	font-size: 14px;
+}                        
+.pruduct-sty ul{
+	margin-top: 7px;
+}
+.pruduct-num{
+	margin-top: 15px;
+	color: #666666;
+	font-size: 14px;
+}
+.pruduct-num-value{
+	width: 30px;
+	text-align: center;
+}
+.buttonboth{
+	margin-top: 15px;
+	height: 41px;
+}
+.add-button{
+	width: 170px;
+	height: 41px;
+	background-color: #666;
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	line-height: 2.5;
+	float: left;
+	cursor: pointer;
+}
+.add-button:hover{
+	width: 170px;
+	height: 41px;
+	background-color: black;
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	line-height: 2.5;
+	float: left;
+}
+.buy-button{
+	width: 170px;
+	height: 41px;
+	background-color: white;
+	color: black;
+	border: 1px solid #666;
+	font-size: 16px;
+	text-align: center;
+	line-height: 2.5;
+	float: left;
+	margin-left: 12px;
+	cursor: pointer;
+}
+.buy-button:hover{
+	width: 170px;
+	height: 41px;
+	background-color: black;
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	line-height: 2.5;
+	float: left;
+	margin-left: 12px;
+}
+.shareaz{
+	margin-top: 15px;
+	color: #666666;
+	font-size: 14px;
+
+}
+.shareaz span{
+	float: left;
+}
+.shareaz ul{
+	float: left;
+}
+.icon-star{
+	color: black;
+}
+.addfavorite{
+	margin-left: 35px;
+	color: black;
+}
 
 
+.guigeTable{
+	width: 100%;
+	padding: 0 .625rem;
+}
 
-
-
-
-
-
-
-
-
+tbody{
+	display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr{
+	display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+td{
+	padding: 0.4375rem;
+    border: 1px solid #A7A7A7;
+}
+.guigeTable td.col1{
+	width: 5rem;
+    background-color: #F0F0F0;
+}
 
 
 
@@ -489,7 +743,6 @@ a:hover{
 /*footer*/
 
 footer{
-	display: none;
 	width: 100%;
 	height: 440px;
 	background-color: black;
