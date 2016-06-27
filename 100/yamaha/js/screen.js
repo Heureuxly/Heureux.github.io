@@ -43,33 +43,6 @@ $(function(){
 
 		
 
-		//login
-		 $("#signoutmb").attr("style","display:none");
-    	$("#login-button").click(function(event){
-         event.preventDefault();
-     
-     	$('form').fadeOut(500);
-     	$('.login_wrapper').addClass('form-success');
-    	$('#welcome').html("欢迎");
-      	$(".login_wrapper").fadeOut(1500);
-    
-        $("#loginonmb").attr("style","display:none");
-        $("#signoutmb").attr("style","display:block");
-     
-		});
-
-
-		$("#loginonmb").click(function(){
-        // $(".login_wrapper").removeClass("login_wrapper_none");
-        $(".login_wrapper").fadeIn(500);
-        $(".dv").animate({left:"-90%"});
-        })
-
-       
-     	//}
-     	$(".login_close").click(function(){
-        $(".login_wrapper").fadeOut(500);
-     	})
 		
 		
 
@@ -170,7 +143,10 @@ $(function(){
 
     	$(".swiper-pagination-bullet-active").css("background","white");
 
-		
+		//link
+
+		$(".navwordlink1").removeAttr('href');
+
 
 
 		

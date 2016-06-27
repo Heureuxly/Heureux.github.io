@@ -386,6 +386,7 @@ a:hover{
 	width: 100%;
 
 }
+
 @media(min-width: 900px){
 	.dvnav a{
 		color: black;
@@ -465,6 +466,7 @@ a:hover{
 .right-extra{
 	float: left;
 }
+
 .bannershop-mid{
 	float: left;
 	width: 400px;
@@ -489,6 +491,12 @@ a:hover{
 	color: #DDDEE2;
 }
 
+@media(min-width: 1px) and (max-width: 1225px){
+	.bannershop-right{
+		display: none;
+	}
+}
+
 .bannershop-right{
 	float: right;
 	padding-right: 50px;
@@ -499,9 +507,7 @@ a:hover{
 
 
 }
-.bannershop-right h5{
-	
-}
+
 .bannershop-right img{
 	width: 140px
 }
@@ -754,6 +760,7 @@ a:hover{
     left: 623px;
     top: 330px;
     background-color: white;
+    display: none;
 }
 .icon-warning-sign{
 	color: black;
@@ -761,7 +768,18 @@ a:hover{
 	position: absolute;
 	left: 6px;
 	top: 9px;
+}
 
+.arrow-bottom{
+	left: 57px;
+	bottom: -11px;
+	position: absolute;
+	overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    width: 14px;
+    height: 11px;
+    background: url(../images/arrow.png);
 }
 
 .guigeTable{

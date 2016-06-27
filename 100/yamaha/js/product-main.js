@@ -1,32 +1,9 @@
 $(function(){
 	var i="";
 	i=document.body.clientWidth;
-	if (i>=768) {
+	if (i>768) {
 
-		 //登录login
-        $(".p4").attr("style","display:none");
-    	$("#login-button").click(function(event){
-         event.preventDefault();
-     
-     	$('form').fadeOut(500);
-     	$('.login_wrapper').addClass('form-success');
-    	$('#welcome').html("欢迎");
-      	$(".login_wrapper").fadeOut(1500);
-    
-        $(".p3").attr("style","display:none");
-        $(".p4").attr("style","display:block");
-     
-		});
-     
-
-        $(".loginon").click(function(){
-        $(".login_wrapper").fadeIn(500);
-        })
-
-       
-     	$(".login_close").click(function(){
-        $(".login_wrapper").fadeOut(500);
-     	})
+		 
 
 
 
@@ -58,19 +35,31 @@ $(function(){
         
             $(".addnumright").click(function(){
                 val=$("#inputval").val();
-              
+
                 if (val<10&&val>0){
                     $("#inputval").val(++val);
                 }
-                
+                else{
+                    $(".xtips-content").eq(1).attr("style","display:block");
+                } 
             });
             $(".addnumleft").click(function(){
                 val=$("#inputval").val();
-                if (val<=0&&val>0){
-                $("#inputval").val(--val);
+                
+                if (val<=10&&val>1){
+                    $("#inputval").val(--val);
                 }
+                else{
+                    $(".xtips-content").eq(0).attr("style","display:block");
+                }   
             });
         
+        //addnum time
+        A=setInterval(function(){
+            $(".xtips-content").attr("style","display:none");
+        },4000)
+
+
 
 
 

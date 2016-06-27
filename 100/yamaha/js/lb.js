@@ -25,4 +25,31 @@ $(function(){
     if (num=3) {
     $(".topword p,.topword a,.topword i").css("color","black");
    };*/ 
+
+
+
+   //登录login
+        $(".p4").attr("style","display:none");
+        $("#login-button").click(function(event){
+         event.preventDefault();
+     
+        $('form').fadeOut(500);
+        $('.login_wrapper').addClass('form-success');
+        $('#welcome').html("欢迎");
+        $(".login_wrapper").fadeOut(1500);
+    
+        $(".p3").attr("style","display:none");
+        $(".p4").attr("style","display:block");
+     
+        });
+     
+
+        $(".loginon").click(function(){
+        $(".login_wrapper").fadeIn(500);
+        })
+
+       
+        $(".login_close").click(function(){
+        $(".login_wrapper").fadeOut(500);
+        })
 })

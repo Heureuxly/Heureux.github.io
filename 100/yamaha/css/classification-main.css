@@ -1,4 +1,3 @@
-
 *{
 	margin: 0;
 	padding: 0;
@@ -8,9 +7,12 @@
 body{
 	font-size: 62.5%;
 	font-family:"微软雅黑";
-	background-color: black;
+	overflow:-Scroll;
+	overflow-x:hidden;
 }
-
+ul li{
+	list-style: none;
+}
 
 
 .clearfix:before,
@@ -22,17 +24,7 @@ body{
 
 
 
-
-@-webkit-keyframes fadeIn {
-0% {
-opacity: 0; /*初始状态 透明度为0*/
-}
-
-100% {
-opacity: .85; /*结尾状态 透明度为.85*/
-}
-}
-
+/*登录*/
 .login_wrapper_block{
 	opacity: .85;
 	display: block;
@@ -89,12 +81,9 @@ opacity: .85; /*结尾状态 透明度为.85*/
   margin-top: -200px;
   overflow: hidden;
   z-index: 99999;
-  -webkit-animation-name: fadeIn; /*动画名称*/
-  -webkit-animation-duration: .5s; /*动画持续时间*/
-  -webkit-animation-iteration-count: 1; /*动画次数*/
-  -webkit-animation-delay: 0s; /*延迟时间*/
+  opacity: .85;
 	
-  
+  display: none;
 
 }
 .login_wrapper.form-success .container h1 {
@@ -156,13 +145,15 @@ form button {
   background-color: white;
   border: 0;
   padding: 10px 15px;
-  color: #53e3a6;
+  /*color: #53e3a6;*/
+  color: darkcyan;
   border-radius: 3px;
   width: 250px;
   cursor: pointer;
   font-size: 18px;
   -webkit-transition-duration: 0.25s;
           transition-duration: 0.25s;
+  font-weight: 600;
 }
 form button:hover {
   background-color: #f5f7f9;
@@ -297,10 +288,17 @@ form button:hover {
 	width: 37px;
 	height: 37px;
 	cursor: pointer;
-
+	z-index: 100000;
 }
+/*登录结束*/
 
 
+
+
+/*手机版隐藏元素*/
+.mb,.m1,.m2,.m3,.nav,.content,.bottomchart,.pt-detail{
+	display: none;
+}
 
 
 
@@ -308,22 +306,19 @@ form button:hover {
 
 .big{
 	position: relative;
-	
 }
-
-
-
-
-
+body a{
+	cursor: pointer;
+}
 .topword{
-	position: absolute;
-	top: 0;
 	width: 100%;
-	height: 30px;
-	background: hsla(0,0%,100%,.3);
+	height: 2rem;
+	background: black;
 	overflow: hidden;
 	z-index: 99;
 	line-height: 30px;
+	color: white;
+	opacity: .8;
 }
 .topword::before{
 	content: '';
@@ -334,12 +329,11 @@ form button:hover {
             filter: blur(20px);
     
     filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=20, MakeShadow=false); /* IE6~IE9 */
-}
 
-.loginon{
+}
+.loginon,.missage{
 	cursor: pointer;
 }
-
 .p1{
 	font-size: 14px;
 	color: white;
@@ -358,33 +352,28 @@ form button:hover {
 	color: white;
 	margin-right: 3%;
 }
-.p2 a{
+.p3,.p4{
+	float: right;
+	font-size: 12px;
+	color: white;
+}
+.p2 a,.p3 a,.p4 a{
 	font-size: 12px;
 	color: white;
 	text-decoration: none;
 }
-.topword .icon-shopping-cart{
-	font-size: 8px;
-}
-.topword .icon-map-marker{
-	font-size: 8px;
-}
-.topword .icon-globe{
-	font-size: 8px;
+.topword .icon-shopping-cart,.topword .icon-map-marker,.topword .icon-globe{
+	font-size: 1.2em;
+	color: white;
 }
 
-
-
-
-
-
-
-
+a:hover{
+	text-shadow: 0px 1px 4px white;
+}
 .header{
 	height: 90px;
-	width: 100%;
-	position: absolute;
-	top: 30px;
+	margin: 0 1% 0 1%;
+	border-bottom: 1px solid black;
 }
 
 .logo{
@@ -392,41 +381,23 @@ form button:hover {
     padding: 27px 0 0 2em;
 
 }
-
-
-
-/*电脑版 图标隐藏*/
-
-.dv i{
+.navline,.dv i,.dv input,.dvnone,.pcnone,.dvnav li i,.nav-level-1,.nav-level-2,.nav-level-3,.nav-level-4,.nav-level-5,.navclose,.navline_bottom,.zhucepcnone{
 	display: none;
 }
-.dv input{
-	display: none;
-}
-.dvnone{
-	display: none;
-}
-.pcnone{
-	display: none;
-}
-
-
-
-/*nav导航*/
 .dv{
 	width: 100%;
 
 }
 @media(min-width: 900px){
 	.dvnav a{
-		color: white;
+		color: black;
 		text-decoration: none;
 		font-size: 1.8em;
 	}
 }
 @media(min-width: 1px) and (max-width: 900px){
 	.dvnav a{
-		color: white;
+		color: black;
 		text-decoration: none;
 		font-size: 1.5em;
 	}
@@ -436,48 +407,202 @@ form button:hover {
 .navword1{
 	display: inline-block;
 	position: absolute;
-	top: 33px;
+	top: 65px;
 	left: 40%;
 }
 .navword2{
 	display: inline-block;
 	position: absolute;
-	top: 33px;
+	top: 65px;
 	left: 47%;
 }
 .navword3{
 	display: inline-block;
 	position: absolute;
-	top: 33px;
+	top: 65px;
 	left: 59%;
 }
 .navword4{
 	display: inline-block;
 	position: absolute;
-	top: 33px;
+	top: 65px;
 	left: 68.5%;
 }
 .navword5{
 	display: inline-block;
 	position: absolute;
-	top: 33px;
+	top: 65px;
 	left: 78%;
 }
 
-.navline{
+.pcnav{
+	width: 100%;
+	padding: 22px 50px 12px;
+	font-size: 1.4em;
+}
+
+.pcnav ul>li::after{
+	content: '/';
+	margin: 0 10px;
+}
+.pcnav ul li{
+	list-style: none;
+	display:inline;
+}
+.pcnav ul li a{
+	color: #999;
+	text-decoration: none;
+}
+.pcnav ul>li:last-child::after{
+	content: none;
+}
+.buyform{
 	display: none;
 }
 
 
 
-
-
-
-
-
-
-
-
+.main{
+	padding: 10px 2%;
+}
+.mainleft{
+	width: 23%;
+	float: left;
+	border: 1px solid #E5E5E5;
+	font-size: 14px;
+	padding: 18px 18px 15px 14px;
+	margin-top: 75px;
+}
+.mainleft h3{
+	color: #E5E5E5;
+}
+.mainleft ul li{
+	margin: 14px 3px 3px 3px;
+	padding: 0 5px;
+}
+.mainleft ul li a{
+	color: black;
+	text-decoration: none;
+}
+.fontcolor{
+	font-weight: bold;
+	color: black;
+}
+.mainright{
+	width: 75%;
+	float: left;
+	margin-left: 2%;
+}
+.mainright h1{
+	font-size: 30px;
+	font-weight: normal;
+	text-align: center;
+	line-height: 55px;
+}
+.breadmb{
+	width: 100%;
+	height: 55px;
+}
+.mainright-topdv{
+	height: 44px;
+	width: 100%;
+	border: 1px solid #E5E5E5;
+	margin-top: 20px;
+	padding: 9px 10px;
+}
+.action-sort{
+	border: 1px solid #d3d3d3;
+    display: inline-block;
+    margin-right: 5px;
+    background-color: #f3f3f3;
+	text-decoration: none;
+	color: #666;
+}
+.action-sort em{
+	padding: 0 8px;
+    display: inline-block;
+    line-height: 21px;
+    font-style: normal;
+}
+.action-sort span{
+	display: inline-block;
+	margin-left: 3px;
+}
+.shopproduct-once{
+	width: 31%;
+    margin: 0 0.5%;
+    float: left;
+    position: relative;
+    margin-bottom: 0.7rem;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    padding: 2%;
+}
+.shopproduct-once img{
+	width: 100%;
+}
+.shop-name{
+	font-weight: bold;
+	margin-top: 5px;
+}
+.shop-name a{
+	color: #333;
+	text-decoration: none;
+}
+.shop-price{
+	margin-top: 10px;
+}
+.fixed-btn{
+	width: 104px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 64px;
+    margin-left: -52px;
+    margin-top: -32px;
+    display: none;
+}
+.link-btn{
+	width: 104px;
+    color: #024c73;
+    padding: 6px 0;
+    cursor: pointer;
+    display: block;
+    background-color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+.add-btn{
+	width: 104px;
+    background-color: rgb(50, 50, 50);
+    text-align: center;
+    color: #fff;
+    padding: 6px 0;
+    cursor: pointer;
+    display: block;
+}
+.link-btn:hover{
+	color: black;
+}
+.add-btn:hover{
+	background-color: rgb(115, 115, 115);
+}
+.mainblock{
+	width: 100%;
+	height: 80px;
+	text-align: center;
+	margin-top: 20px;
+	font-weight: bold;
+}
+.mainblock span{
+	cursor: pointer;
+	color: black;
+}
+.mainblock span:hover{
+	color: #929292;
+}
+/*footer*/
 
 footer{
 	width: 100%;
@@ -531,7 +656,6 @@ footer{
 
 .footerRowright{
 	float: left;
-	width: 538px;
 	margin-left: 3%;
 	font-size: 14px;
 	margin-right: 0%;
@@ -563,12 +687,37 @@ footer{
 		margin-left: 15px;
 	}
 }
+@media(min-width: 1366px){
+	.footerlistColumn{
+		margin-left: 6%;
+	}
+	.footerRowright{
+		width: 55%;
+	}
+}
+@media(min-width: 1455px){
+	.footerlistColumn{
+		margin-left: 10%;
+	}
+	.footerRowright{
+		width: 55%;
+	}
+	.footerAttention{
+		margin-left: 10%;
+	}
+}
+
 .footerAttention li{
 	list-style: none;
 }
 .footerAttention .title{
 	font-size: 18px;
 	line-height: 36px;
+}
+.footerAttention a{
+	color: white;
+	text-decoration: none;
+
 }
 
 .footerbottom{
